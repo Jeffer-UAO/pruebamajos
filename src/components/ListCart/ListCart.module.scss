@@ -1,0 +1,64 @@
+.list {
+  padding: 0.3rem;
+  background-color: #ebebeb;
+  width: 100dvw;
+  .card {
+    background-color: rgb(255, 255, 255);
+    border: solid 2px white;
+    display: flex;
+    margin: 0.3rem;
+    border-radius: 0.5rem;
+    justify-content: space-between;
+
+    .detalle {
+      padding: 0 0.5rem 0 0.5rem;
+      .name {
+        font-weight: 500;
+        p {
+          text-transform: uppercase;
+          font-size: 1rem;
+          color: rgb(8, 1, 137);
+        }
+      }
+
+      .price {
+        font-size: 1rem;
+        color: rgb(253, 56, 79);
+        font-weight: 600;
+      }
+    }
+
+    .btnDelete {
+      cursor: pointer;
+
+      background-color: #52525200;
+      border-radius: 0.5rem;
+      padding: 0.3rem;
+      svg {
+        margin: 0;
+      }
+    }
+
+    .btn {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      p {
+        font-size: 18px;
+        font-weight: 600;
+        margin-left: 1rem;
+        margin-right: 1rem;
+      }
+    }
+
+    img {
+      width: 5rem;
+      height: 6rem;
+      object-fit: cover;
+      object-position: center center;
+      border-radius: 0.5rem 0 0 0.5rem;
+      aspect-ratio: 1/1;
+    }
+  }
+}

@@ -1,0 +1,52 @@
+
+.user{
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(1, 125, 30);
+  padding-left: 1rem;
+  padding-right: 1rem;
+  font-weight: 600;
+  p{
+   color: #ffeaef;
+  }
+}
+
+.topBar { 
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0.5rem; 
+  background-color: #ffeaef;
+
+  .title {   
+    .name {
+      font-size: 20px;
+      font-weight: 600;
+      color: rgb(239, 8, 235);
+    }
+
+    .ano {
+      font-size: 18px;
+      display: flex;
+      justify-content: flex-end;
+
+      p {
+        color: rgb(1, 125, 30);
+      }
+      .num {
+        padding-left: 5px;
+      }
+    }
+    .extra {
+      font-size: 10px;
+      color: rgb(0, 0, 0);
+    }
+  }
+
+  > a {
+    > img {
+      height: 3rem;
+      border-radius: 10px;
+    }
+  }
+}

@@ -1,0 +1,39 @@
+.content {
+  padding: 0.5rem;
+  margin-bottom: 5rem;
+
+  h1 {
+    text-align: center;
+    margin: 10px;
+
+  }
+
+  .list {
+    display: grid;
+    gap: 0.5rem;
+    grid-template-columns: repeat(auto-fit, minmax(8rem, 1fr));
+    text-align: center;
+
+    .skeleton {
+      border: solid 1px rgb(231, 231, 231);
+      border-radius: 0.5rem;
+      background-color: rgb(251, 240, 249);
+    }
+
+    h2 {
+      text-transform: uppercase;
+      font-weight: 600;
+      font-size: 2.5vh;
+      color: rgb(136, 3, 172);
+      padding: 0.2rem;
+      overflow: hidden;
+        text-overflow: ellipsis;
+    }
+    img {
+      object-fit: cover;
+      object-position: center center;
+      border-radius: 0.5rem 0.5rem 0 0;
+      aspect-ratio: 3/4;
+    }
+  }
+}
